@@ -77,7 +77,6 @@ def compare_data(list1, list2):
     """
     list1 = list1[:30]
     list2 = list2[:30]
-    print('\nPercentage match for the first thirty elements:')
     # Percentage match for every one element
     score = 0
     for i in range(len(list1)):
